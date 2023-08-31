@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navi{
+    color: rgb(20, 125, 216);
+}
+h1{
+    color: rgb(247, 247, 247);
+}
+h2{
+    color: rgb(152, 168, 8);
+}
+h3{
+    color:blue;
+}
+body {
+    font-family: "Open Sans";
+    background-color:dimgrey;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+   
+  }
+  .image-txt {
+   position:absolute;
+    justify-content: center;
+    top: 33%; 
+    left: 27%; 
+    transform: translate(-55%, -50%);
+    background: rgba(0, 0, 0, 0.0);
+    color: white;
+    padding: 170px;
+    
+
+}
+.image-txt p{
+    text-align: center;
+    font-size-adjust: 5% ;
+}
+.text-txt{
+    position: absolute;
+    justify-content: center;
+    top: 68%; 
+    left: 88%;
+}
+.btnInfo{
+    display: flex;
+position: absolute;
+justify-content: center;
+top:67% ;
+left:43% ;
+background-color: rgb(255, 255, 0);
+padding: 12px;
+cursor: pointer;
+
+}
+body p {
+    margin-bottom: 20px;
+            padding: 10px;
+            background-color: rgba(209, 135, 135, 0);
+            box-shadow: 0 0 0px rgba(255, 254, 254, 0.315);
+}
+header{
+    text-align: center;
+    background-color: #463f3f;
+    color: white;
+    text-align: center;
+    padding: 7px; 
+}
+nav a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    display: inline;
+    margin: 0 6px;
+    margin-top: 10px;
+}
+footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+        color: white;
+}
+
+.spacer {
+    flex-grow: 1; 
+    margin-right: 200px; 
+}
+.ComoJugar{
+    text-align: center;
+    color: blue;
+}
+.bodyDescargar{
+    background-image: url("16387-fortnite.jpg")
+   
+}
+.divbodyd{
+    padding: 50px;
+    margin: 100px;
+    height: 100%;
+    width: 30%;
+    background-color: rgba(240, 248, 255, 0.207);
+}
+.noticias, .personajes {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.noticias h2, .personajes h2 {
+    margin-top: 0;
+}
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+    margin-top: 0;
+}
+
+.personaje {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.personaje img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+}
+
+nav ul li {
+   display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    margin-top: 10px;
+    text-decoration:none;
+    color: white;
+}
+.navprin a{
+    
+        margin-top: 20px;
+        text-decoration: none;
+        color: white;
+        display: inline;
+        margin: 0 6px;
+        margin-top: 10px;
+}
+.navprin ul li {
+    display: inline;
+     margin: 0 10px;
+ }
+ .navprin ul li a {
+    margin-top: 10px;
+    text-decoration:none;
+    color: white;
+}
